@@ -29,10 +29,10 @@
                 <configuration>
                     <scriptdirectory>.</scriptdirectory>
                     <driver>com.mysql.jdbc.Driver</driver>
-                    <url>jdbc:mysql://dbdeploytest.ck1zuoqmhhyf.ap-southeast-1.rds.amazonaws.com:3306/siva</url>
+                    <url>jdbc:mysql://dbdeploytest.ck1zuoqmhhyf.ap-southeast-1.rds.amazonaws.com:3306/blaze</url>
                     <userid>${databaseuser}</userid>
                     <password>${databasepassword}</password>
-                    <dbms>siva</dbms>
+                    <dbms>blaze</dbms>
                     <delimiter>;</delimiter>
                     <delimiterType>row</delimiterType>
                     <outputfile>${project.version}_apply.sql</outputfile>
