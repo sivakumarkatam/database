@@ -29,10 +29,10 @@
                 <configuration>
                     <scriptdirectory>.</scriptdirectory>
                     <driver>com.mysql.jdbc.Driver</driver>
-                    <url>jdbc:mysql://dbdeploytest.ck1zuoqmhhyf.ap-southeast-1.rds.amazonaws.com:3306/blazedb</url>
+                    <url>jdbc:mysql://dbdeploytest.ck1zuoqmhhyf.ap-southeast-1.rds.amazonaws.com:3306/demo</url>
                     <userid>${databaseuser}</userid>
                     <password>${databasepassword}</password>
-                    <dbms>blazedb</dbms>
+                    <dbms>demo</dbms>
                     <delimiter>;</delimiter>
                     <delimiterType>row</delimiterType>
                     <outputfile>${project.version}_apply.sql</outputfile>
