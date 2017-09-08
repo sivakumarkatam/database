@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu/database
+cd /home/ubuntu
 mvn clean install dbdeploy:update
