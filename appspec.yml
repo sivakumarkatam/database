@@ -9,4 +9,4 @@ hooks:
       runas: root
   ApplicationStart:
     - location: deploymentscripts/startapp.bash
-      runas: root
+      runas: ubuntu
