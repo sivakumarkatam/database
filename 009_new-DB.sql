@@ -11,9 +11,9 @@ CREATE TABLE Persons (
 )
 ;
 
-INSERT INTO Persons (PersonID, LastName, FirstNmae, Address, City) VALUES (1, 'kumar', 'siva', 'Hinjiwadi', 'Pune')
+INSERT INTO Persons (PersonID, LastName, FirstName, Address, City) VALUES (1, 'kumar', 'siva', 'Hinjiwadi', 'Pune')
 ;
-INSERT INTO Persons (PersonID, LastName, FirstNmae, Address, City) VALUES (2, 'kumar', 'katam', 'ESI', 'Hyderabad')
+INSERT INTO Persons (PersonID, LastName, FirstName, Address, City) VALUES (2, 'kumar', 'katam', 'ESI', 'Hyderabad')
 ;
-INSERT INTO Persons (PersonID, LastName, FirstNmae, Address, City) VALUES (3, 'kumar', 'siva', 'Hinjiwadi', 'Mumbai')
+INSERT INTO Persons (PersonID, LastName, FirstName, Address, City) VALUES (3, 'kumar', 'siva', 'Hinjiwadi', 'Mumbai')
 ;
