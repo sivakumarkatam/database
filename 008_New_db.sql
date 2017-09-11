@@ -3,7 +3,7 @@ CREATE DATABASE testDB
 use testDB
 ;
 CREATE TABLE Persons (
-    PersonID int
+    PersonID INTEGER NOT NULL
     ,LastName varchar(255)
     ,FirstName varchar(255)
     ,Address varchar(255)
