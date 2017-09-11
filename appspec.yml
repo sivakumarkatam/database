@@ -2,11 +2,11 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu
+    destination: /tmp/
 hooks:
   AfterInstall:
     - location: deploymentscripts/serviceapp.bash
       runas: root
   ApplicationStart:
     - location: deploymentscripts/startapp.bash
-      runas: ubuntu
+      runas: root
