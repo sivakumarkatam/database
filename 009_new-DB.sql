@@ -1,5 +1,3 @@
-CREATE DATABASE testDB
-;
 use testDB
 ;
 CREATE TABLE Persons (
