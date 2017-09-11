@@ -1,1 +1,1 @@
-ALTER TABLE "Test" DROP COLUMN "data";
+ALTER TABLE Test DROP COLUMN data;
