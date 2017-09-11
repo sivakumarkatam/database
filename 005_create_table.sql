@@ -13,5 +13,5 @@ INSERT INTO demo (demo_ID, demo_VALUE, demo_color) VALUES (2, 'This is added by 
 ;
 INSERT INTO demo (demo_ID, demo_VALUE, demo_color) VALUES (3, 'This is added by sivakumar', 'green')
 ;
-INSERT INTO demo (demo_ID, demo_VALUE, demo_color) VALUES (3, 'This is added by blaze', 'black')
+INSERT INTO demo (demo_ID, demo_VALUE, demo_color) VALUES (4, 'This is added by blaze', 'black')
 ;
