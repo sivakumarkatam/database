@@ -29,7 +29,7 @@
                 <configuration>
                     <scriptdirectory>.</scriptdirectory>
                     <driver>com.mysql.jdbc.Driver</driver>
-                    <url>jdbc:mysql://dbdeploytest.ck1zuoqmhhyf.ap-southeast-1.rds.amazonaws.com:3306/blaze</url>
+                    <url>jdbc:mysql://privste-dbdeploy.ck1zuoqmhhyf.ap-southeast-1.rds.amazonaws.com:3306/blaze</url>
                     <userid>${databaseuser}</userid>
                     <password>${databasepassword}</password>
                     <dbms>blaze</dbms>
