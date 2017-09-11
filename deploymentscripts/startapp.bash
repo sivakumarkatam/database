@@ -1,6 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu
-#mvn install dbdeploy:update
 aws --region ap-southeast-1  ssm get-parameters --names "Dbuser" | awk 'match($0, /"Value":.*/) { print substr($0, RSTART, RLENGTH) }'| cut -d '"' -f4 | sudo tee user
 username=$(cat user)
 echo "${username}"
