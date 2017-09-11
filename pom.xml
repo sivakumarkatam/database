@@ -32,7 +32,7 @@
                     <url>jdbc:mysql://privste-dbdeploy.ck1zuoqmhhyf.ap-southeast-1.rds.amazonaws.com:3306/blaze</url>
                     <userid>${databaseuser}</userid>
                     <password>${databasepassword}</password>
-                    <dbms>blaze</dbms>
+                    <dbms>siva</dbms>
                     <delimiter>;</delimiter>
                     <delimiterType>row</delimiterType>
                     <outputfile>${project.version}_apply.sql</outputfile>
