@@ -1,3 +1,5 @@
+create database testDB
+;
 use testDB
 ;
 CREATE TABLE Persons (
